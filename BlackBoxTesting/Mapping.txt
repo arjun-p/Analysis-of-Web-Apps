@@ -1,0 +1,55 @@
+
+Test Case Mapping
+
+1) home_item_click
+Default -- Click Item -- Item Description
+
+2) valid_search
+Default -- Search Item -- Result Items -- Click Item -- Item Description
+
+3) invalid_search
+Default -- Search Item -- Empty Record Set
+
+4) correct_login
+Default -- Login Page -- Admin Page -- Logout
+
+5) incorrect_login
+Default -- Login Page -- Error Message -- Login Page
+
+6) add_event
+Default -- Login Page -- Admin Page -- Events -- Add event -- Delete event -- Logout
+
+7) add_user
+Default -- Login Page -- Admin Page -- Events -- Add event -- Delete event -- Logout
+
+8) add_new_category
+Default -- Login Page -- Admin Page -- Category -- Add category -- Delete category  -- Logout
+
+9) add_new_user
+Default -- Login Page -- Admin Page -- Users -- Add user -- Delete user  -- Logout
+
+10) add_user_cancel
+Default -- Login Page -- Admin Page -- Users -- Cancel  -- Logout
+
+11) event_cancel
+Default -- Event New -- Try inserting without proper details -- Cancel
+
+11) event_cancel
+Default -- Event New -- Try inserting without proper details -- Cancel
+
+12) sort
+Default - Login Page -- Admin Page -- Users -- Sort  -- Logout
+
+13) event_approve
+Default - Login Page -- Admin Page -- Events -- Edit  -- Approve & Update Event - Logout
+
+14) get_approved _events
+Default - Login Page -- Admin Page -- Events -- Filter with 'Yes' -- Logout
+
+15) category_search
+Default - Filter with category name -- Result set
+
+17) admin_search
+Default - Login Page -- Admin Page -- Events -- Search with event name -- Logout
+
+

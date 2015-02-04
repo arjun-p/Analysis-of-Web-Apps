@@ -1,0 +1,17 @@
+Total 
+164.580
+TestCase 	 Time
+AddBook 	19.908
+AddUser 	22.602
+AdminAddOrder 	20.659
+AdminNavigate 	27.861
+DefaultSearch 	12.519
+LoginCorrect 	11.734
+LoginEmpty 	11.102
+LoginIncorrect 	11.832
+MyInfoCancel 	12.147
+MyInfoCredit 	16.107
+Register 	19.557
+ShoppingAddDelAdmin 	18.904
+ShoppingAddDelGuest 	17.231
+ShoppingAddDel 	14.448

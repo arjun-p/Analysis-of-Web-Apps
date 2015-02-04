@@ -1,0 +1,22 @@
+
+***Reachability Test***
+
+Reachable from MA to MB: 65 -> 62
+Reachable from MA to MB: 490 -> 62
+Number of calls from MA reaching a call to MB: 2
+
+Reachable from MC to MG: 228 -> 165
+Number of calls from MC reaching a call to MG: 1
+
+Reachable from MF to MH: 380 -> 396
+Number of calls from MF reaching a call to MH: 1
+
+Reachable from MJ to ME: 220 -> 189
+Reachable from MJ to ME: 204 -> 189
+Reachable from MJ to ME: 214 -> 189
+Number of calls from MJ reaching a call to ME: 3
+
+Reachable from MD to MD: 543 -> 301
+Node invoking MD  not reachable to itself 
+Number of calls from MD reaching a call to MD: 1
+

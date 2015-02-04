@@ -1,0 +1,29 @@
+Test cases to be re-run:
+Code Change:  Login:561
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect LoginEmpty LoginIncorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+
+
+Code Change:  Login:497
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect LoginEmpty LoginIncorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+
+
+Code Change:  Login:505
+TestCase: AddUser LoginEmpty LoginIncorrect
+
+
+Code Change:  ShoppingCart:502
+TestCase: ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+
+
+Code Change:  ShoppingCart:623
+TestCase: ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+
+
+Code Change:  ShoppingCart:732
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+
+
+Code Change:  MyInfo:459
+TestCase: AddBook Register ShoppingAddDelAdmin
+
+

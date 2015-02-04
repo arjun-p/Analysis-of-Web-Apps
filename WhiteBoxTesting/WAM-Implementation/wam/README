@@ -1,0 +1,6 @@
+(1) Copy all files downloaded from SVN into a new directory.  That way if I need to update the files, your SVN update won't clobber your local modifications.
+(2) Place config files in the base directory of the events and bookstore apps
+(3) Modify config files "classpath" attribute to point to the directory containing your compiled classes
+(4) Update config.sh with your local directories
+(5) Update the wam.properties attributes
+(6) Run "wam-pda.sh events" or "wam-pda.sh bookstore"

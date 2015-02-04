@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="events" defaultTarget="Default.jsp">
+	
+	<classpath dir="build/std"/>
+
+	<class name="org.apache.jsp.Header_jsp" target="Header.jsp"/>
+	<class name="org.apache.jsp.AdminMenu_jsp" target="AdminMenu.jsp"/>
+
+	<class name="org.apache.jsp.AdminCategoriesGrid_jsp" target="AdminCategoriesGrid.jsp"/>
+	<class name="org.apache.jsp.Default_jsp" target="Default.jsp"/>
+	<class name="org.apache.jsp.Login_jsp" target="Login.jsp"/>
+	<class name="org.apache.jsp.AdminCategoriesRecord_jsp" target="AdminCategoriesRecord.jsp"/>
+	<class name="org.apache.jsp.AdminUsersGrid_jsp" target="AdminUsersGrid.jsp"/>
+	<class name="org.apache.jsp.EventNew_jsp" target="EventNew.jsp"/>
+	<class name="org.apache.jsp.AdminEventsGrid_jsp" target="AdminEventsGrid.jsp"/>
+	<class name="org.apache.jsp.AdminUsersRecord_jsp" target="AdminUsersRecord.jsp"/>
+	<class name="org.apache.jsp.EventView_jsp" target="EventView.jsp"/>
+	<class name="org.apache.jsp.AdminEventsRecord_jsp" target="AdminEventsRecord.jsp"/>
+
+</app>

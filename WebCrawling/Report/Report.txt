@@ -1,0 +1,35 @@
+1. Default.jsp (Line 21)
+Text changed to: 
+This dynamic site was tampered with by the professor. :) 
+From:
+This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a>
+
+2. Login.jsp (Line 171)
+EmpsGrid.jsp Font size for members increased from 10 to 12
+DepsGrid.jsp Font size for departments increased from 10 to 12
+
+3. Logout (Line 201) - Font size of the button increased from 10 to 12
+
+4. EmpsGrid.jsp
+Employee sorting order is different
+
+5. AdminMenu.jsp (Line 983)
+Login and Password Font size for increased from 10 to 12
+
+6. AdminMenu.jsp (Line 974)
+EmpsGrid.jsp Font size for members increased from 10 to 12
+DepsGrid.jsp Font size for departments increased from 10 to 12
+
+7. Login.jsp (Line 1033)- Incorrect Login
+Text "Login or password is not correct" to "Login or password is incorrect" 
+
+
+
+
+
+
+
+
+
+
+

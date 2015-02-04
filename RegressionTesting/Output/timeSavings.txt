@@ -1,0 +1,32 @@
+Saving = Total Time (164.580s) - Sum of Individual Tests - Analysis time
+Analysis Time: 2s (Done in bash script itself)
+
+Test cases to be re-run:
+Code Change:  Login:561
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect LoginEmpty LoginIncorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+Saving: 10.289s
+
+Code Change:  Login:497
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect LoginEmpty LoginIncorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+Saving: 10.289s
+
+Code Change:  Login:505
+TestCase: AddUser LoginEmpty LoginIncorrect
+Saving: 117.178s
+
+Code Change:  ShoppingCart:502
+TestCase: ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+Saving: 112.032s
+
+Code Change:  ShoppingCart:623
+TestCase: ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+Saving: 112.032s
+
+Code Change:  ShoppingCart:732
+TestCase: AddBook AddUser AdminAddOrder AdminNavigate DefaultSearch LoginCorrect MyInfoCredit Register ShoppingAddDelAdmin ShoppingAddDel ShoppingAddDelGuest
+Saving: 33.808s
+
+Code Change:  MyInfo:459
+TestCase: AddBook Register ShoppingAddDelAdmin
+Saving: 104.211s
+

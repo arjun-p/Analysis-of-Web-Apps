@@ -1,0 +1,44 @@
+1. Login.jsp
+EmpsGrid.jsp Font size for members increased from 10 to 12
+DepsGrid.jsp Font size for departments increased from 10 to 12
+
+2. Logout - Font size of the button increased from 10 to 12
+
+3. AdminMenu.jsp
+EmpsGrid.jsp Font size for members increased from 10 to 12
+DepsGrid.jsp Font size for departments increased from 10 to 12
+
+
+4. Default.jsp
+Text changed from: 
+This dynamic site was tampered with by the professor. :) 
+To:
+This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a>
+
+5. EmpDetail.jsp
+Missing Images in new app.
+Missing Image - <img border=0 src=images/emps/bobk.jpg>
+Missing Image - <img border=0 src=images/emps/pablos.jpg>
+Missing Image - <img border=0 src=images/emps/davids.jpg>
+Missing Image - <img border=0 src=images/emps/lij.jpg>
+Missing Image - <img border=0 src=images/emps/robd.jpg>
+Missing Image - <img border=0 src=images/emps/johns.jpg>
+
+6. EmpsGrid.jsp
+Employee sorting order is different
+
+7. DepsRecord.jsp
+Delete button is missing.
+Value of dep_id is set to 1 always. Hence returning same value for all departments.
+
+8. DepsRecord.jsp
+Value of dep_id is set to 1 always.
+
+9. Login.jsp - Incorrect Login
+Text "Login or password is not correct" to "Login or password is incorrect" 
+
+10.EmpsRecord.jsp 
+java.sql.SQLException
+Cannot issue empty query
+
+

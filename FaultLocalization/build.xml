@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<project name="Deployer" default="compile" basedir=".">
+
+  <property file="deployer.properties"/>
+ 
+  <!-- Configure the folder and context path for this application -->
+  <property name="name"   value="bkfl"/>
+  <property name="path"     value="/${name}"/>
+  <property name="appdir" value="${basedir}/${name}"/>
+
+
+  <!-- Configure the directory into which the web application is built -->
+  <property name="build"    value="${appdir}/build"/>
+  <property name="app.webinf" value="${build}/WEB-INF"/>
+
+  <!-- Configure properties to access the Manager application -->
+  <property name="url"      value="http://localhost:8080/manager"/>
+  <property name="username" value="tomcat"/>
+  <property name="password" value="s3cret"/>
+  <property name="tomcat.lib" value="/usr/share/tomcat6/lib"/>
+
+
+  <path id="deployer.classpath">
+    <fileset dir="${appdir}/lib">
+      <include name="*.jar"/>
+    </fileset>
+    <fileset dir="${tomcat.lib}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <!-- Configure the custom Ant tasks for the Manager application -->
+  <taskdef resource="org/apache/catalina/ant/catalina.tasks"
+           classpathref="deployer.classpath"/>
+
+  <!-- Setup stuff for Cobertura -->
+<property name="cobertura.dir" value="${basedir}/cobertura-2.0.3" />
+
+  <path id="cobertura.classpath">
+    <fileset dir="${cobertura.dir}">
+        <include name="cobertura-2.0.3.jar" />
+        <include name="lib/**/*.jar" />
+    </fileset>
+  </path>
+
+  <taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+
+
+  <!-- Executable Targets -->
+  <target name="clean" description="Removes build directory">
+    <delete dir="${build}" />
+  </target>
+
+  <target name="compile" description="Compile web application">
+
+ <!--      <jasper  uriroot="${appdir}"
+             webXmlFragment="${app.webinf}/generated_web.xml"
+             addWebXmlMappings="true"
+             outputDir="${app.webinf}/src" />
+
+    <validator path="${build}" />
+
+    <mkdir dir="${app.webinf}/classes"/>  -->
+    <copy file="${appdir}/PostDataDumperFilter.java" todir="${app.webinf}/src" />
+    <javac destdir="${app.webinf}/classes"
+           optimize="off"
+           debug="true"
+           deprecation="${compile.deprecation}"
+           failonerror="false"
+           srcdir="${app.webinf}/src"
+           encoding="UTF-8"
+           excludes="**/*.smap">
+      <classpath>
+        <fileset dir="${app.webinf}/lib">
+          <include name="*.jar"/>
+        </fileset>
+        <fileset dir="${appdir}/lib">
+          <include name="*.jar"/>
+        </fileset>
+	      <fileset dir="${tomcat.lib}">
+          <include name="*.jar"/>
+       </fileset>
+      </classpath>
+      <include name="**" />
+      <exclude name="tags/**" />
+    </javac>
+
+    <copy todir="${build}/images">
+	      <fileset dir="${appdir}/images" />
+    </copy>  
+
+    
+
+  </target>
+<!-- <target name="instrument" description="Instrument the class files" depends="compile"> -->
+<target name="instrument" description="Instrument the class files" >
+<delete file="${appdir}/cobertura-initial-${name}.ser"/>
+<cobertura-instrument todir="${app.webinf}/classes" datafile="${appdir}/cobertura-initial-${name}.ser">
+    <fileset dir="${app.webinf}/classes">
+        <include name="**/*.class" />
+        <exclude name="**/DumpServlet_jsp.class" />
+        <exclude name="**/Common_jsp.class" />
+        <exclude name="**/PostDataDumperFilter.class" />
+    </fileset>
+</cobertura-instrument>
+<copy file="${cobertura.dir}/cobertura-2.0.3.jar" todir="${app.webinf}/lib/" />
+<copy file="${appdir}/cobertura.properties" todir="${app.webinf}/classes/" />
+<delete dir="/tmp/cobertura"/>
+<mkdir dir="/tmp/cobertura" />
+<chmod dir="/tmp/cobertura" perm="777"/>
+<copy file="${appdir}/cobertura-initial-${name}.ser" tofile="/tmp/cobertura/cobertura-${name}.ser"/>
+<chmod dir="/tmp/cobertura/cobertura-${name}.ser" perm="777"/>
+</target>
+
+
+<target name="report" description="Generate HTML reports from the merged cobertura file" >
+<delete dir="${appdir}/report"/>
+<mkdir dir="${appdir}/report"/>
+<copy tofile="${appdir}/report/cobertura-${name}.ser" file="/tmp/cobertura/cobertura-${name}.ser"/>
+<cobertura-report datafile="${appdir}/report/cobertura-${name}.ser" format="xml" destdir="${appdir}/report" srcdir="${app.webinf}/src" />
+<cobertura-report datafile="${appdir}/report/cobertura-${name}.ser" format="html" destdir="${appdir}/report" srcdir="${app.webinf}/src" />
+</target>
+
+  <target name="deploy" description="Deploy web application">  
+<jar destfile="${name}.war"
+         basedir="${build}" />
+	<deploy url="${url}" username="${username}" password="${password}"
+            path="${path}" war="${name}.war" update="true" />
+  </target>
+
+
+  <target name="undeploy" description="Undeploy web application">
+    <undeploy url="${url}" username="${username}" password="${password}"
+              path="${path}"/>
+  </target>
+
+
+
+  <!-- Webapp lifecycle control -->
+  <target name="start" description="Start web application">
+    <start url="${url}" username="${username}" password="${password}"
+           path="${path}"/>
+  </target>
+  <target name="reload" description="Reload web application">
+    <reload url="${url}" username="${username}" password="${password}"
+            path="${path}"/>
+  </target>
+  <target name="stop" description="Stop web application">
+    <stop url="${url}" username="${username}" password="${password}"
+          path="${path}"/>
+  </target>
+
+  <target name="build-tests" description="Builds tests using selenium">
+  	<echo>${appdir}</echo>
+
+  	<delete dir="${appdir}/src/classes"/>
+  	<mkdir dir="${appdir}/src/classes" />
+  	
+    <javac destdir="${appdir}/src/classes"
+           optimize="off"
+           debug="true"
+           deprecation="${compile.deprecation}"
+           failonerror="false"
+           srcdir="${appdir}/src"
+           encoding="UTF-8"
+           excludes="**/*.smap">
+          <classpath>
+            <fileset dir="${appdir}/lib">
+             <include name="*.jar"/>
+            </fileset>
+         </classpath>
+      <include name="**" />
+      <exclude name="tags/**" />
+    </javac>
+</target>
+
+    <target name="run-tests"  depends="build-tests">
+
+    	<delete dir="${appdir}/selenium-reports"/>
+  		<mkdir dir="${appdir}/selenium-reports" />
+  		<mkdir dir="${appdir}/selenium-reports/raw" />
+  		<mkdir dir="${appdir}/selenium-reports/html" />
+
+        <junit printsummary="yes" haltonfailure="no" showoutput="yes">
+            <classpath>
+                <pathelement path="${appdir}/src/classes" />
+                <fileset dir="${appdir}/lib">
+                    <include name="*.jar" />
+                </fileset>
+            </classpath>
+
+            <batchtest fork="yes" todir="${appdir}/selenium-reports/raw/">
+                <formatter type="xml" />
+                <fileset dir="${appdir}/src/classes">
+                    <include name="*.class" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test" depends="run-tests">
+
+        <junitreport todir="${appdir}/selenium-reports">
+            <fileset dir="${appdir}/selenium-reports/raw/">
+                <include name="*.xml" />
+            </fileset>
+            <report format="noframes" todir="${appdir}/selenium-reports/html" />
+        </junitreport>
+    </target>
+
+    <target name="delete-log">
+
+        <tstamp>
+	    <format property="file-date" pattern="yyyy-MM-dd" />
+	</tstamp>
+        <delete file="/var/lib/tomcat7/logs/localhost_access_log.${file-date}.txt" />
+    </target>
+
+</project>

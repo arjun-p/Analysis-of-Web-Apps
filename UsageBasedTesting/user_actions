@@ -1,0 +1,108 @@
+wget --delete-after --keep-session-cookies --save-cookies cookies.txt --post-data 'Login=adm2in&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring=' http://localhost:8080/empldir/Login.jsp
+wget  --delete-after --keep-session-cookies --save-cookies cookies.txt --post-data 'Login=admin&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring=' http://localhost:8080/empldir/Login.jsp
+wget --load-cookies cookies.txt  --post-data 'FormAction=&FormName=' http://localhost:8080/empldir/Footer.jsp
+
+wget --load-cookies cookies.txt  --post-data 'dep_id=&name=&email=' http://localhost:8080/empldir/Default.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&FormGrid_Sorting=4&FormGrid_Sorted=' http://localhost:8080/empldir/Default.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=7&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=5&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=4&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=3&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=2&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'name=bob&dep_id=&email=&emp_id=1&' http://localhost:8080/empldir/EmpDetail.jsp
+wget --load-cookies cookies.txt  --post-data 'FormName=Record&FormAction=cancel&Trn_dep_id=&Trn_name=bob&Trn_email=&PK_emp_id=7' http://localhost:8080/empldir/Default.jsp
+wget --load-cookies cookies.txt  --post-data 'emp_login=&name=&manmonth=&Formemps_Sorting=1&Formemps_Sorted=' http://localhost:8080/empldir/EmpsGrid.jsp
+
+wget --load-cookies cookies.txt  --post-data 'name=Bob+Kuch&title=Developer&emp_login=admin&emp_password=admin&emp_level=3&dep_id=1&address=&email=bobk%40company.com&work_phone=%28364%29+134-5411&home_phone=%28564%29+343-3367&cell_phone=&picture=bobk.jpg&FormName=emps&FormAction=update&emp_id=7&PK_emp_id=7=' http://localhost:8080/empldir/EmpsRecord.jsp
+wget --load-cookies cookies.txt  --post-data 'dep_id=&name=&email=' http://localhost:8080/empldir/Default.jsp
+wget --load-cookies cookies.txt	  http://localhost:8080/empldir/AdminMenu.jsp
+wget --load-cookies cookies.txt  --post-data'name=ali&title=ali&emp_login=ali&emp_password=ali&emp_level=3&dep_id=2&address=ali&email=aalotaib@usc.edu&work_phone=55555555555&home_phone=55555&cell_phone=4444444&picture=&FormName=emps&FormAction=insert&emp_id=&PK_emp_id=
+' http://localhost:8080/empldir/EmpsRecord.jsp
+wget --load-cookies cookies.txt  --post-data 'name=ali&title=ali&emp_login=ali&emp_password=ali&emp_level=3&dep_id=2&address=ali&email=aalotaib@usc.edu&work_phone=55555555555&home_phone=55555&cell_phone=4444444&picture=&FormName=emps&FormAction=delete&emp_id=10&PK_emp_id=10' http://localhost:8080/empldir/EmpsRecord.jsp
+
+http://wget --load-cookies cookies.txt localhost:8080/empldir/DepsGrid.jsp
+
+wget --load-cookies cookies.txt  --post-data 'dep_id=2' http://localhost:8080/empldir/DepsRecord.jsp
+wget --load-cookies cookies.txt  --post-data 'name=Administration&FormName=deps&FormAction=update&dep_id=2&PK_dep_id=2' http://localhost:8080/empldir/DepsRecord.jsp
+wget --load-cookies cookies.txt  --post-data 'name=Finance&FormName=deps&FormAction=update&dep_id=5&PK_dep_id=5' http://localhost:8080/empldir/DepsGrid.jsp
+wget --load-cookies cookies.txt  --post-data 'name=Marketing&FormName=deps&FormAction=update&dep_id=4&PK_dep_id=4' http://localhost:8080/empldir/DepsGrid.jsp
+wget --load-cookies cookies.txt  --post-data 'name=Software&FormName=deps&FormAction=update&dep_id=1&PK_dep_id=1' http://localhost:8080/empldir/DepsGrid.jsp
+wget --load-cookies cookies.txt  --post-data 'name=TEST&FormName=deps&FormAction=insert&dep_id=&PK_dep_id=' http://localhost:8080/empldir/DepsGrid.jsp
+wget --load-cookies cookies.txt  --post-data 'name=TEST&FormName=deps&FormAction=delete&dep_id=6&PK_dep_id=6' http://localhost:8080/empldir/DepsGrid.jsp
+
+wget --load-cookies cookies.txt  --post-data 'dep_id=&name=&email=' http://localhost:8080/empldir/Default.jsp
+
+
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/Header.jsp
+wget  --post-data 'Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --post-data 'emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName=&' http://localhost:8080/empldir/EmpsGrid.jsp
+wget  --post-data 'FormAction=&dep_id=&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&dep_id=&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&name=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&name=1.0&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&dep_id=&name=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --post-data 'FormAction=&emp_id=&PK_emp_id=1.0&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'FormAction=&emp_id=&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'FormAction=&PK_emp_id=1.0&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --post-data 'querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --post-data 'Login=&querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --post-data 'Login=1.0&FormAction=&Password=1.0&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --post-data 'Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --post-data 'Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --post-data 'Login=&querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --post-data 'querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --post-data 'Login=1.0&FormAction=&Password=1.0&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --post-data 'Formdeps_Page=1&Formdeps_Sorting=1&FormAction=&Formdeps_Sorted=&FormName=&' http://localhost:8080/empldir/DepsGrid.jsp
+wget  --post-data 'FormGrid_Sorting=1&FormGrid_Sorted=&email=&FormAction=&dep_id=&name=&FormName=&' http://localhost:8080/empldir/Default.jsp
+wget -q -O /dev/null --save-cookies cookies.txt --keep-session-cookies --post-data 'FormName=Login&Login=admin&Password=admin&FormAction=login&ret_page=&querystring='  http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/Header.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName=&' http://localhost:8080/empldir/EmpDetail.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName=&' http://localhost:8080/empldir/EmpsGrid.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&dep_id=&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&dep_id=&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&name=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&name=1.0&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&dep_id=&name=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName=&' http://localhost:8080/empldir/DepsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&emp_id=&PK_emp_id=1.0&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&emp_id=&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&PK_emp_id=1.0&FormName=&' http://localhost:8080/empldir/EmpsRecord.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=&querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=1.0&FormAction=&Password=1.0&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName=&' http://localhost:8080/empldir/Login.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormAction=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=&querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'querystring=&FormAction=&ret_page=&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Login=1.0&FormAction=&Password=1.0&FormName=&' http://localhost:8080/empldir/AdminMenu.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'Formdeps_Page=1&Formdeps_Sorting=1&FormAction=&Formdeps_Sorted=&FormName=&' http://localhost:8080/empldir/DepsGrid.jsp
+wget  --load-cookies cookies.txt --keep-session-cookies --post-data 'FormGrid_Sorting=1&FormGrid_Sorted=&email=&FormAction=&dep_id=&name=&FormName=&' http://localhost:8080/empldir/Default.jsp

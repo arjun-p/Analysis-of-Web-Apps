@@ -1,0 +1,11 @@
+DefaultNoRecords:fail
+DefaultSearch:pass
+DefaultTry:pass
+LoginAdmin:pass
+LoginInvalid:pass
+LoginRedirect:fail
+OrderAdd:fail
+OrderAdminAdd:fail
+OrderAsc:fail
+OrderBook:pass
+OrderDel:fail

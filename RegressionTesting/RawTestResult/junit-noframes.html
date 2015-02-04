@@ -1,0 +1,2504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['.AddBook'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AddBook skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-AddBook.xml crashfile=/home/student/webapps/junitvmwatcher8796224941780664110.properties propsfile=/home/student/webapps/junit3179123592464873817.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.AddUser'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AddUser skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-AddUser.xml crashfile=/home/student/webapps/junitvmwatcher2887161667011137288.properties propsfile=/home/student/webapps/junit6700773958071724239.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.AdminAddOrder'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AdminAddOrder skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-AdminAddOrder.xml crashfile=/home/student/webapps/junitvmwatcher3097734705096878288.properties propsfile=/home/student/webapps/junit6308042158059321919.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.AdminNavigate'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AdminNavigate skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-AdminNavigate.xml crashfile=/home/student/webapps/junitvmwatcher1973275592390769124.properties propsfile=/home/student/webapps/junit9075802381185019054.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.DefaultSearch'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DefaultSearch skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-DefaultSearch.xml crashfile=/home/student/webapps/junitvmwatcher6613769213442219848.properties propsfile=/home/student/webapps/junit4761308728932298466.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.LoginCorrect'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner LoginCorrect skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-LoginCorrect.xml crashfile=/home/student/webapps/junitvmwatcher7317781508421091067.properties propsfile=/home/student/webapps/junit6227015999915347286.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.LoginEmpty'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner LoginEmpty skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-LoginEmpty.xml crashfile=/home/student/webapps/junitvmwatcher7206630812149635686.properties propsfile=/home/student/webapps/junit2536471041982276917.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.LoginIncorrect'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner LoginIncorrect skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-LoginIncorrect.xml crashfile=/home/student/webapps/junitvmwatcher130343557473824195.properties propsfile=/home/student/webapps/junit9192591841825586361.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.MyInfoCancel'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MyInfoCancel skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-MyInfoCancel.xml crashfile=/home/student/webapps/junitvmwatcher6538988696456345908.properties propsfile=/home/student/webapps/junit1206055246408661384.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.MyInfoCredit'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MyInfoCredit skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-MyInfoCredit.xml crashfile=/home/student/webapps/junitvmwatcher6657392880500273504.properties propsfile=/home/student/webapps/junit4582060418216709092.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.Register'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Register skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-Register.xml crashfile=/home/student/webapps/junitvmwatcher2956010218223469429.properties propsfile=/home/student/webapps/junit2524418710406865988.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.ShoppingAddDel'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ShoppingAddDel skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-ShoppingAddDel.xml crashfile=/home/student/webapps/junitvmwatcher7938216209646846521.properties propsfile=/home/student/webapps/junit97054866812355395.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.ShoppingAddDelAdmin'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ShoppingAddDelAdmin skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-ShoppingAddDelAdmin.xml crashfile=/home/student/webapps/junitvmwatcher1033643681835555805.properties propsfile=/home/student/webapps/junit2833646951441311236.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    
+    cur = TestCases['.ShoppingAddDelGuest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.Deployer'] = '/home/student/webapps/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Deployer'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'Deployer';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['app.webinf'] = '/home/student/webapps/bookstore-orig/build/WEB-INF';
+    
+        cur['appdir'] = '/home/student/webapps/bookstore-orig';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/student/webapps';
+    
+        cur['build'] = '/home/student/webapps/bookstore-orig/build';
+    
+        cur['cobertura.dir'] = '/home/student/webapps/cobertura-2.0.3';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/student/webapps/bookstore-orig/src/classes:/home/student/webapps/bookstore-orig/lib/cobertura-2.0.3.jar:/home/student/webapps/bookstore-orig/lib/hamcrest-core-1.3.jar:/home/student/webapps/bookstore-orig/lib/junit-4.11.jar:/home/student/webapps/bookstore-orig/lib/mysql.jar:/home/student/webapps/bookstore-orig/lib/selenium-java-2.43.0.jar:/home/student/webapps/bookstore-orig/lib/selenium-server-standalone-2.43.0.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_65-b32';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.65-b04';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['name'] = 'bookstore-orig';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-37-generic';
+    
+        cur['password'] = 's3cret';
+    
+        cur['path'] = '/bookstore-orig';
+    
+        cur['path.separator'] = ':';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ShoppingAddDelGuest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/student/webapps/bookstore-orig/selenium-reports/raw/TEST-ShoppingAddDelGuest.xml crashfile=/home/student/webapps/junitvmwatcher2012630792652520379.properties propsfile=/home/student/webapps/junit6952238135845128585.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['tomcat.lib'] = '/usr/share/tomcat6/lib';
+    
+        cur['url'] = 'http://localhost:8080/manager';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/student/webapps';
+    
+        cur['user.home'] = '/root';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'root';
+    
+        cur['user.timezone'] = '';
+    
+        cur['username'] = 'tomcat';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>14</td><td>0</td><td>0</td><td>0</td><td>100.00%</td><td>131.957</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#"></a></td><td>14</td><td>0</td><td>0</td><td>0</td><td>131.957</td><td>2014-11-21T01:02:47</td><td>student-VirtualBox</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name=""></a>
+<h3>Package </h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AddBook">AddBook</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>16.053</td><td>2014-11-21T01:02:47</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AddUser">AddUser</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>11.881</td><td>2014-11-21T01:03:04</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AdminAddOrder">AdminAddOrder</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>10.444</td><td>2014-11-21T01:03:16</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AdminNavigate">AdminNavigate</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>19.841</td><td>2014-11-21T01:03:27</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#DefaultSearch">DefaultSearch</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>6.378</td><td>2014-11-21T01:03:47</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LoginCorrect">LoginCorrect</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>5.437</td><td>2014-11-21T01:03:54</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LoginEmpty">LoginEmpty</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>5.388</td><td>2014-11-21T01:04:00</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LoginIncorrect">LoginIncorrect</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>5.825</td><td>2014-11-21T01:04:06</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#MyInfoCancel">MyInfoCancel</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>5.414</td><td>2014-11-21T01:04:12</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#MyInfoCredit">MyInfoCredit</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>8.575</td><td>2014-11-21T01:04:18</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#Register">Register</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>11.048</td><td>2014-11-21T01:04:27</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ShoppingAddDel">ShoppingAddDel</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>7.355</td><td>2014-11-21T01:04:38</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ShoppingAddDelAdmin">ShoppingAddDelAdmin</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>9.634</td><td>2014-11-21T01:04:46</td><td>student-VirtualBox</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ShoppingAddDelGuest">ShoppingAddDelGuest</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>8.684</td><td>2014-11-21T01:04:56</td><td>student-VirtualBox</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="AddBook"></a>
+<h3>TestCase AddBook</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testAddBook</td><td>Success</td><td></td><td>15.833</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.AddBook');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AddUser"></a>
+<h3>TestCase AddUser</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testAddUser</td><td>Success</td><td></td><td>11.658</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.AddUser');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AdminAddOrder"></a>
+<h3>TestCase AdminAddOrder</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testAdminAddOrder</td><td>Success</td><td></td><td>10.230</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.AdminAddOrder');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AdminNavigate"></a>
+<h3>TestCase AdminNavigate</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testAdminNavigate</td><td>Success</td><td></td><td>19.617</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.AdminNavigate');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="DefaultSearch"></a>
+<h3>TestCase DefaultSearch</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testDefaultSearch</td><td>Success</td><td></td><td>6.166</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.DefaultSearch');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LoginCorrect"></a>
+<h3>TestCase LoginCorrect</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testLoginCorrect</td><td>Success</td><td></td><td>5.219</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.LoginCorrect');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LoginEmpty"></a>
+<h3>TestCase LoginEmpty</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testLoginEmpty</td><td>Success</td><td></td><td>5.171</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.LoginEmpty');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LoginIncorrect"></a>
+<h3>TestCase LoginIncorrect</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testLoginIncorrect</td><td>Success</td><td></td><td>5.604</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.LoginIncorrect');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="MyInfoCancel"></a>
+<h3>TestCase MyInfoCancel</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testMyInfoCancel</td><td>Success</td><td></td><td>5.187</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.MyInfoCancel');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="MyInfoCredit"></a>
+<h3>TestCase MyInfoCredit</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testMyInfoCredit</td><td>Success</td><td></td><td>8.361</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.MyInfoCredit');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="Register"></a>
+<h3>TestCase Register</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testRegister</td><td>Success</td><td></td><td>10.836</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.Register');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ShoppingAddDel"></a>
+<h3>TestCase ShoppingAddDel</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testShoppingAddDel</td><td>Success</td><td></td><td>7.125</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.ShoppingAddDel');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ShoppingAddDelAdmin"></a>
+<h3>TestCase ShoppingAddDelAdmin</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testShoppingAddDelAdmin</td><td>Success</td><td></td><td>9.424</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.ShoppingAddDelAdmin');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ShoppingAddDelGuest"></a>
+<h3>TestCase ShoppingAddDelGuest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testShoppingAddDelGuest</td><td>Success</td><td></td><td>8.471</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.ShoppingAddDelGuest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>

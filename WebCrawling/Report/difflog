@@ -1,0 +1,1228 @@
+oldLogin.jsp
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/robd.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/bobk.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+41,42c40
+<       <td ><a href="DepsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+<       <td ><a href="EmpsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+---
+>       <td ><a href="EmpsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+46a45
+>       <td ><a href="DepsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+63c62
+<      <tr><td ><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+---
+>      <tr><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+77d75
+< 
+--------------------------------EOF-----------------------
+oldAdminMenu.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+41,42c40
+<       <td ><a href="DepsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+<       <td ><a href="EmpsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+---
+>       <td ><a href="EmpsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+46a45
+>       <td ><a href="DepsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+63c62
+<      <tr><td ><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+---
+>      <tr><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+77d75
+< 
+--------------------------------EOF-----------------------
+oldEmpsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+79,89c78,81
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+<      </tr>
+<      <tr>
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=7&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Bob Kuch&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Admin&nbsp;</font></td>
+93,95c85,87
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+100,102c92,94
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+114,116c106,108
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+121,123c113,115
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+128,131c120,130
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=7&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">admin&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Bob Kuch&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Admin&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>      </tr>
+>      <tr>
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+151d149
+< 
+--------------------------------EOF-----------------------
+oldEmpsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+102d100
+< 
+--------------------------------EOF-----------------------
+oldEmpsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+79,81c78,80
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+86,88c85,87
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+93,95c92,101
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+>      </tr>
+>      <tr>
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+107,110c113,115
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+112,116d116
+<      </tr>
+<      <tr>
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+118d117
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+121,123c120,122
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+128,130c127,129
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+151d149
+< 
+--------------------------------EOF-----------------------
+oldEmpsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+79,81c78,80
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+86,88c85,87
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+93,95c92,101
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+>      </tr>
+>      <tr>
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+107,110c113,115
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+112,116d116
+<      </tr>
+<      <tr>
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+118d117
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+121,123c120,122
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+128,130c127,129
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+151d149
+< 
+--------------------------------EOF-----------------------
+oldEmpsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+79,81c78,80
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+86,88c85,87
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+93,95c92,101
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+>      </tr>
+>      <tr>
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+107,110c113,115
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=5&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">pablos&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Pablo Sanchez&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=3&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">robd&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Rob McDonald&nbsp;</font></td>
+112,116d116
+<      </tr>
+<      <tr>
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=2&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">lij&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Li Jang&nbsp;</font></td>
+118d117
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Yes&nbsp;</font></td>
+121,123c120,122
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=1&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">johns&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John Smith&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=6&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">stefanf&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Stefan Fey&nbsp;</font></td>
+128,130c127,129
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=4&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">davids&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">David Snyder&nbsp;</font></td>
+---
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=8&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">timl&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Tim Leist&nbsp;</font></td>
+151d149
+< 
+--------------------------------EOF-----------------------
+oldEmpsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+79,85d77
+<       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=7&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Ramkumar&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Admin&nbsp;</font></td>
+<       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+<      </tr>
+<      <tr>
+134a127,133
+>       <td ><a href="EmpsRecord.jsp?emp_login=&name=&manmonth=&emp_id=7&"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Edit</font></a></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Ramkumar&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">John&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Admin&nbsp;</font></td>
+>       <td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">&nbsp;</font></td>
+>      </tr>
+>      <tr>
+151d149
+< 
+--------------------------------EOF-----------------------
+oldEmpsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+102d100
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/davids.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/pablos.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/johns.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/davids.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldDefault.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+161c160
+< <center><font face="Arial"><small>This dynamic site was tampered with by the professor. :) </small></font></center>
+---
+> <center><font face="Arial"><small>This dynamic site was generated with <a href="http://www.codecharge.com">CodeCharge</a></small></font></center>
+164d162
+< 
+--------------------------------EOF-----------------------
+oldEmpDetail.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+69c68
+<       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/lij.jpg>&nbsp;</font></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Picture</font></td><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><img border=0 src=images/emps/davids.jpg>&nbsp;</font></td>
+86d84
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+56d54
+< 
+--------------------------------EOF-----------------------
+oldAdminMenu.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+41,42c40
+<       <td ><a href="DepsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+<       <td ><a href="EmpsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+---
+>       <td ><a href="EmpsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+46a45
+>       <td ><a href="DepsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+63c62
+<      <tr><td ><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Ramkumar&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+---
+>      <tr><td ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Ramkumar&nbsp;&nbsp;</font><input type="hidden" name="FormAction" value="logout"/><input type="submit" value="Logout"/><input type="hidden" name="ret_page" value=""><input type="hidden" name="querystring" value=""></td>
+77d75
+< 
+--------------------------------EOF-----------------------
+oldAdminMenu.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+41,42c40
+<       <td ><a href="DepsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+<       <td ><a href="EmpsGrid.jsp"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+---
+>       <td ><a href="EmpsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Members</font></a></td>
+46a45
+>       <td ><a href="DepsGrid.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Departments</font></a></td>
+64c63
+<       <td bgcolor="#FFDD00"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Login</font></td><td ><input type="text" name="Login" maxlength="50" value=""></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Login</font></td><td ><input type="text" name="Login" maxlength="50" value=""></td>
+67c66
+<       <td bgcolor="#FFDD00"><font style="font-size: 12pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Password</font></td><td ><input type="password" name="Password" maxlength="50"></td>
+---
+>       <td bgcolor="#FFDD00"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Password</font></td><td ><input type="password" name="Password" maxlength="50"></td>
+84d82
+< 
+--------------------------------EOF-----------------------
+oldAdminMenu.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/AdminMenu.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/AdminMenu.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+41c40
+<       <td colspan="2" ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Login or Password is not correct.</font></td>
+---
+>       <td colspan="2" ><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica">Login or Password is incorrect.</font></td>
+66d64
+< 
+--------------------------------EOF-----------------------
+oldAdminMenu.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/AdminMenu.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/AdminMenu.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsGrid.jsp"><input type="hidden" name="querystring" value="Formdeps_Sorting=1&Formdeps_Sorted=&"></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsGrid.jsp"><input type="hidden" name="querystring" value="Formdeps_Sorting=1&Formdeps_Sorted=&"></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsGrid.jsp"><input type="hidden" name="querystring" value="Formdeps_Sorting=1&Formdeps_Sorted=1&"></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsGrid.jsp"><input type="hidden" name="querystring" value="Formdeps_Sorting=1&Formdeps_Sorted=1&"></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsRecord.jsp"><input type="hidden" name="querystring" value="dep_id=3&"></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsRecord.jsp"><input type="hidden" name="querystring" value="dep_id=3&"></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsRecord.jsp"><input type="hidden" name="querystring" value="name=John&FormName=deps&FormAction=delete&dep_id=3&PK_dep_id=3"></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsRecord.jsp"><input type="hidden" name="querystring" value="name=John&FormName=deps&FormAction=delete&dep_id=3&PK_dep_id=3"></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsRecord.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsRecord.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsRecord.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsRecord.jsp"><input type="hidden" name="querystring" value="name=John&FormName=deps&FormAction=cancel&dep_id=&PK_dep_id="></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsRecord.jsp"><input type="hidden" name="querystring" value="name=John&FormName=deps&FormAction=cancel&dep_id=&PK_dep_id="></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldDepsGrid.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+49c48
+<       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir-7/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+---
+>       <td colspan="2"><input type="hidden" name="FormAction" value="login"><input type="submit" value="Login"><input type="hidden" name="ret_page" value="/empldir/DepsGrid.jsp"><input type="hidden" name="querystring" value=""></td>
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------
+oldLogin.jsp
+21d20
+<       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+22a22
+>       <td ><a href="AdminMenu.jsp"><font style="font-size: 10pt; color: #000000; font-family: Arial, Tahoma, Verdana, Helvetica"><center><img border="0" src="images/admin.gif" width="77" height="77"><br>Administration</center></font></a></td>
+31d30
+< 
+63d61
+< 
+--------------------------------EOF-----------------------

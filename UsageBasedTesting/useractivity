@@ -1,0 +1,240 @@
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=adm2in&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=adm2in&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=admin&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=admin&Password=admin&FormAction=login&FormName=Login&ret_page=&querystring= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/Footer.jsp -O newFooter.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/Footer.jsp -O oldFooter.jsp
+wget --load-cookies cookies1.txt --post-data dep_id=&name=&email= http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data dep_id=&name=&email= http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&FormGrid_Sorting=4&FormGrid_Sorted= http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&FormGrid_Sorting=4&FormGrid_Sorted= http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=7 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=7 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=5 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=5 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=4 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=4 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=3 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=3 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=2 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=2 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data name=bob&dep_id=&email=&emp_id=1 http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data name=bob&dep_id=&email=&emp_id=1 http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data FormName=Record&FormAction=cancel&Trn_dep_id=&Trn_name=bob&Trn_email=&PK_emp_id=7 http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data FormName=Record&FormAction=cancel&Trn_dep_id=&Trn_name=bob&Trn_email=&PK_emp_id=7 http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --load-cookies cookies1.txt --post-data emp_login=&name=&manmonth=&Formemps_Sorting=1&Formemps_Sorted= http://localhost:8080/empldir/EmpsGrid.jsp -O newEmpsGrid.jsp
+wget --load-cookies cookies2.txt --post-data emp_login=&name=&manmonth=&Formemps_Sorting=1&Formemps_Sorted= http://localhost:8080/empldirWithErrors/EmpsGrid.jsp -O oldEmpsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=Bo http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data name=Bo http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/EmpsGrid.jsp -O newEmpsGrid.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/EmpsGrid.jsp -O oldEmpsGrid.jsp
+wget --load-cookies cookies1.txt --post-data dep_id=&name=&email= http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data dep_id=&name=&email= http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt --post-data name=ali&title=ali&emp_login=ali&emp_password=ali&emp_level=3&dep_id=2&address=ali&email=aalotaib@usc.edu&work_phone=55555555555&home_phone=55555&cell_phone=4444444&picture=&FormName=emps&FormAction=delete&emp_id=10&PK_emp_id=10 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data name=ali&title=ali&emp_login=ali&emp_password=ali&emp_level=3&dep_id=2&address=ali&email=aalotaib@usc.edu&work_phone=55555555555&home_phone=55555&cell_phone=4444444&picture=&FormName=emps&FormAction=delete&emp_id=10&PK_emp_id=10 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/EmpsGrid.jsp -O newEmpsGrid.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/EmpsGrid.jsp -O oldEmpsGrid.jsp
+wget --load-cookies cookies1.txt --post-data dep_id=2 http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data dep_id=2 http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data name=Administration&FormName=deps&FormAction=update&dep_id=2&PK_dep_id=2 http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data name=Administration&FormName=deps&FormAction=update&dep_id=2&PK_dep_id=2 http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=Finance&FormName=deps&FormAction=update&dep_id=5&PK_dep_id=5 http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data name=Finance&FormName=deps&FormAction=update&dep_id=5&PK_dep_id=5 http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=Marketing&FormName=deps&FormAction=update&dep_id=4&PK_dep_id=4 http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data name=Marketing&FormName=deps&FormAction=update&dep_id=4&PK_dep_id=4 http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=Software&FormName=deps&FormAction=update&dep_id=1&PK_dep_id=1 http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data name=Software&FormName=deps&FormAction=update&dep_id=1&PK_dep_id=1 http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=TEST&FormName=deps&FormAction=insert&dep_id=&PK_dep_id= http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data name=TEST&FormName=deps&FormAction=insert&dep_id=&PK_dep_id= http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data name=TEST&FormName=deps&FormAction=delete&dep_id=6&PK_dep_id=6 http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data name=TEST&FormName=deps&FormAction=delete&dep_id=6&PK_dep_id=6 http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt --post-data dep_id=&name=&email= http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data dep_id=&name=&email= http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/Header.jsp -O newHeader.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/Header.jsp -O oldHeader.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName= http://localhost:8080/empldir/EmpsGrid.jsp -O newEmpsGrid.jsp
+wget --load-cookies cookies2.txt --post-data emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName= http://localhost:8080/empldirWithErrors/EmpsGrid.jsp -O oldEmpsGrid.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsGrid.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsGrid.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&name=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&name=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&name=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&name=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&emp_id=&PK_emp_id=1.0&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&emp_id=&PK_emp_id=1.0&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&emp_id=&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&emp_id=&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&PK_emp_id=1.0&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&PK_emp_id=1.0&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FEmpsRecord.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data FormAction=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data Formdeps_Page=1&Formdeps_Sorting=1&FormAction=&Formdeps_Sorted=&FormName= http://localhost:8080/empldir/DepsGrid.jsp -O newDepsGrid.jsp
+wget --load-cookies cookies2.txt --post-data Formdeps_Page=1&Formdeps_Sorting=1&FormAction=&Formdeps_Sorted=&FormName= http://localhost:8080/empldirWithErrors/DepsGrid.jsp -O oldDepsGrid.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FAdminMenu.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsGrid.jsp -O newLogin.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/Login.jsp?querystring=&ret_page=%2Fempldir%2FDepsGrid.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormGrid_Sorting=1&FormGrid_Sorted=&email=&FormAction=&dep_id=&name=&FormName= http://localhost:8080/empldir/Default.jsp -O newDefault.jsp
+wget --load-cookies cookies2.txt --post-data FormGrid_Sorting=1&FormGrid_Sorted=&email=&FormAction=&dep_id=&name=&FormName= http://localhost:8080/empldirWithErrors/Default.jsp -O oldDefault.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data FormName=Login&Login=admin&Password=admin&FormAction=login&ret_page=&querystring= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data FormName=Login&Login=admin&Password=admin&FormAction=login&ret_page=&querystring= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/Header.jsp -O newHeader.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/Header.jsp -O oldHeader.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data email=&FormAction=&dep_id=1.0&emp_id=1.0&name=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&FormAction=&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&email=&FormAction=&dep_id=1.0&name=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldir/EmpDetail.jsp -O newEmpDetail.jsp
+wget --load-cookies cookies2.txt --post-data Trn_email=&FormAction=&PK_emp_id=1.0&Trn_name=&Trn_dep_id=&FormName= http://localhost:8080/empldirWithErrors/EmpDetail.jsp -O oldEmpDetail.jsp
+wget --load-cookies cookies1.txt --post-data emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName= http://localhost:8080/empldir/EmpsGrid.jsp -O newEmpsGrid.jsp
+wget --load-cookies cookies2.txt --post-data emp_login=&FormAction=&name=&Formemps_Sorting=1&Formemps_Sorted=&Formemps_Page=1&manmonth=&FormName= http://localhost:8080/empldirWithErrors/EmpsGrid.jsp -O oldEmpsGrid.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&name=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&name=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&name=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&name=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldir/DepsRecord.jsp -O newDepsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&dep_id=&name=1.0&PK_dep_id=1.0&FormName= http://localhost:8080/empldirWithErrors/DepsRecord.jsp -O oldDepsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&emp_id=&PK_emp_id=1.0&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&emp_id=&PK_emp_id=1.0&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&emp_id=&manmonth=&FormName=&emp_level=1.0&picture=1.0&title=1.0&emp_login=1.0&address=1.0&email=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data cell_phone=1.0&emp_password=1.0&dep_id=1.0&manmonth=&FormName=&picture=1.0&emp_level=1.0&title=1.0&email=1.0&emp_login=1.0&address=1.0&FormAction=&name=1.0&PK_emp_id=1.0&work_phone=1.0&home_phone=1.0 http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&emp_id=&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&emp_id=&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&PK_emp_id=1.0&FormName= http://localhost:8080/empldir/EmpsRecord.jsp -O newEmpsRecord.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&PK_emp_id=1.0&FormName= http://localhost:8080/empldirWithErrors/EmpsRecord.jsp -O oldEmpsRecord.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data FormAction=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=&querystring=&FormAction=&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=1.0&FormAction=&Password=1.0&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --save-cookies cookies1.txt --keep-session-cookies --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldir/Login.jsp -O newLogin.jsp
+wget --save-cookies cookies2.txt --keep-session-cookies --post-data Login=1.0&querystring=&FormAction=&Password=1.0&ret_page=&FormName= http://localhost:8080/empldirWithErrors/Login.jsp -O oldLogin.jsp
+wget --load-cookies cookies1.txt --post-data FormAction=&FormName= http://localhost:8080/empldir/AdminMenu.jsp -O newAdminMenu.jsp
+wget --load-cookies cookies2.txt --post-data FormAction=&FormName= http://localhost:8080/empldirWithErrors/AdminMenu.jsp -O oldAdminMenu.jsp
