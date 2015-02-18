@@ -48,9 +48,9 @@ Goal is to perform regression test selection using the DejaVu method
 3. Calculate time “savings” by the implemented technique 
 
 #### Technique 8: Fault Localization
-Goal: Perform fault localization using the Tarantula method 
-1. Track statements executed by test cases and the test cases’ pass/fail status 
-2. Run test cases on bookstore web app.
+Goal: Perform fault localization using the Tarantula method --
+1. Track statements executed by test cases and the test cases’ pass/fail status --
+2. Run test cases on bookstore web app. --
 3. Identify suspicious statements
 
 
